@@ -1,0 +1,41 @@
+* {
+    font-family: Helvetica, Arial, sans-serif !important;
+    line-height: 1.5 !important;
+    margin: 0px 0px !important;
+}
+
+h1,
+h2 {
+    margin: 20px 0px !important;
+}
+
+h2 {
+    margin-bottom: 10px !important;
+}
+
+ol {
+    margin: 5px 0px !important;
+    counter-reset: item !important;
+}
+
+ol > li {
+    display: block !important;
+}
+
+ol > li:before {
+    content: counters(item, ".") ". " !important;
+    counter-increment: item !important;
+}
+
+ul > li {
+    margin-left: 20px !important;
+    display: list-item !important;
+    list-style-type: disc !important;
+    color: #000000 !important;
+    margin-bottom: 5px !important;
+}
+
+.atencao {
+    color: #ff0000 !important;
+    margin-top: 5px !important;
+}
